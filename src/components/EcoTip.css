@@ -1,0 +1,138 @@
+@import url('https://fonts.cdnfonts.com/css/franxurter-totally');
+.eco-tip-container {
+    background-color: #ffeef8; /* Light pink */
+    color: #333; /* Dark text for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    border: #F4A6B0;
+    border: 2px dotted;
+    font-family: 'Franxurter Totally', sans-serif;
+                                                
+  }
+  
+  /* Heading styling */
+  h1 {
+    color: #F4A6B0; /* Light Rose */
+  }
+  
+  /* Paragraph styling */
+  p {
+    color: #555;
+    font-size: 18px;
+    margin: 10px 0;
+    margin-bottom: 20px;
+  }
+  span{
+    color: #F4A6B0; /* Light Rose */
+  }
+  /* Button styling */
+  .show-tip-btn, .show-saved-tips-btn, .show-user-tips-btn, .save-btn, .share-btn {
+    background-color: #F8C9B8; /* Mellow Apricot */
+    color: #333; /* Dark text for contrast */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .show-tip-btn:hover, .show-saved-tips-btn:hover, .show-user-tips-btn:hover, .save-btn:hover, .share-btn:hover {
+    background-color: #F8BBD0; /* Pastel Pink */
+  }
+  
+  /* Add tip form styling */
+  .add-tip-form {
+    margin-top: 20px;
+  }
+  
+  .add-tip-form input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+  }
+  
+  .add-tip-form button {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FFE5B4; /* Peach */
+    color: #333; /* Dark text for contrast */
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .add-tip-form button:disabled {
+    background-color: #9E9E9E;
+  }
+  
+  /* Popup styling */
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-content {
+    background: #FFFFF0; /* Ivory */
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .popup-content h3 {
+    margin-top: 0;
+    color: #F4A6B0; /* Light Rose */
+  }
+  
+  .close-btn {
+    background-color: #F44336; /* Red */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  /* Share buttons styling */
+  .share-buttons {
+    margin: 10px 0;
+  }
+  
+  .social-icons {
+    margin: 10px 0;
+  }
+  
+  .social-icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+  }
+  .illustration {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background-color: #FFFFFF; /* White for input fields */
+  }

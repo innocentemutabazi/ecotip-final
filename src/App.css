@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+/* Global Styles */
+body {
+  background-color: #FAF3E0; /* Pale Beige background */
+  color: #F4A6B0; /* Light Rose for text */
+  font-family: 'Arial', sans-serif; /* Choose a friendly, rounded font */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Header */
+.header {
+  background-color: #F8BBD0; /* Pastel Pink for header background */
+  color: #FFFFF0; /* Ivory for text */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Buttons */
+.button {
+  background-color: #FFE5B4; /* Peach for buttons */
+  color: #F4A6B0; /* Light Rose text on buttons */
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button:hover {
+  background-color: #F8C9B8; /* Mellow Apricot on hover */
 }
 
-.App-link {
-  color: #61dafb;
+/* Cards or Sections */
+.card {
+  background-color: #FFFFF0; /* Ivory for card background */
+  border: 1px solid #F8BBD0; /* Pastel Pink border */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Icons */
+.icon {
+  color: #F4A6B0; /* Light Rose for icons */
+}
+
+/* Error Messages */
+.error {
+  color: #FF6F61; /* Coral Pink for errors */
 }

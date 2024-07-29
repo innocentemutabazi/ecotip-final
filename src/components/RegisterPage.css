@@ -1,0 +1,91 @@
+.register-container {
+    background-color: #ffeef8; /* Light pink */
+    color: #333; /* Dark text for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    border: #F4A6B0;
+    border: 2px dotted;
+  }
+  
+  input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background-color: #FFF;
+    width:60%;
+  }
+  
+  button {
+    background-color: #F8C9B8; /* Mellow Apricot */
+    color: #333; /* Dark text for contrast */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f4a6b0; /* Light Rose */
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .illustration {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  .password-container {
+    position: relative;
+  }
+  
+  .password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+    .social-login {
+        margin-top: 20px;
+      }
+      
+      .social-login button {
+        background-color: #FFE5B4; /* Peach */
+        color: #333; /* Dark text for contrast */
+      }
+      
+      .social-login button:hover {
+        background-color: #F4A6B0; /* Light Rose */
+      }
+.registering{
+    background-color: #F8C9B8; /* Mellow Apricot */
+
+}
+  /* Existing styles */
+
+.popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f8c9b8; /* Soft peach background */
+    color: #555;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+  }
+  
