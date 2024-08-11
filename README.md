@@ -1,6 +1,4 @@
-Certainly! I apologize for any inconvenience. Here's an improved README file for your Eco-Tip web app:
 
----
 
 # Eco-Tip Web App
 
